@@ -176,16 +176,11 @@ function quiz() {
       console.log("––––––––––\n\n");
     }
   });
-  if (score < 10) {
-    finalScore = `0${score}`;
-  } else {
-    finalScore = "10";
-  }
 
   footer = `
 ––––––––––––––––––––––––––––––––––––––––––
     Thank You for taking the quiz.      
-    Your final score is ${finalScore}/10.        
+    Your final score is ${score}/10.        
 ––––––––––––––––––––––––––––––––––––––––––
 `;
 }
